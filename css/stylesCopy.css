@@ -1,0 +1,85 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Lobster", cursive;
+}
+
+h2 {
+  color: #0b486b;
+}
+
+header h2 {
+  color: #f56217;
+}
+
+.site-footer {
+  background-image: linear-gradient(#f56217, white);
+  padding: 20px 0px;
+}
+
+.jumbotron {
+  padding: 30px;
+  background: linear-gradient(to right, #0b486b, #f56217);
+  color: white;
+  margin: 0;
+}
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px;
+}
+
+.navbar {
+  background-color: #0b486b;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+  border: solid #0b486b;
+}
+
+li a {
+  color: #0b486b;
+}
+
+.other-contact {
+  color: #0b486b;
+}
+
+/* Cards change color on hover */
+#accordion .card-header a.collapsed:hover,
+#accordion .card-header a.collapsed:focus {
+  background-color: #0b486b;
+  color: white;
+  transition: all 0.3s ease-in;
+}
+
+#accordion .card-header a:not(.collapsed) {
+  color: white;
+  background-color: #0b486b;
+  transition: all 0.3s ease-in;
+}
+
+/* Add fontawesome plus icon to the right */
+#accordion .card-header .accordion-collapsed::before {
+  font-family: "FontAwesome";
+  content: "\f00d";
+  float: right;
+  color: #0b486b;
+  transform: rotate(0deg);
+  transition: all 0.3s ease-in;
+}
+
+#accordion .card-header .accordion-collapsed.collapsed::before {
+  color: #0b4868;
+  transform: rotate(-135deg);
+  transition: all 0.3s ease-in;
+}
